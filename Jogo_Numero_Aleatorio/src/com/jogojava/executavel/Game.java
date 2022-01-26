@@ -55,6 +55,8 @@ public class Game {
 		} catch (NumberFormatException e) {
 			e.printStackTrace();
 			JOptionPane.showMessageDialog(null, "Você deve informar um número! Volte e tente novamente");
+		}finally {
+			JOptionPane.showMessageDialog(null, "Obrigado por jogar comigo! Volte sempre..");
 		}
 
 	}
